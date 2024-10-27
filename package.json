@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://richthegrinch.github.io/ColorMatch/",
+  "homepage": "https://richthegrinch.github.io/ColorMatch",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -29,5 +29,4 @@
     "globals": "^15.9.0",
     "vite": "^5.4.1"
   }
-  
 }

@@ -1,0 +1,20 @@
+/*.svg-animation {
+    position: absolute; /* Keep it absolute if you want to position it */
+   /* bottom: 0; /* Position it at the bottom */
+ /* } 
+
+
+/* @keyframes zoomAcross {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    /*} 
+    100% {
+      transform: translateX(100vw); /* End off-screen to the right */
+    /*}
+  }
+  
+  .svg-animation {
+    animation: zoomAcross 5s linear infinite; /* Adjust duration and infinite looping as needed */
+ /* }
+   */
+  

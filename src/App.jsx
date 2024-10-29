@@ -7,7 +7,7 @@ import './App.css'
 //import cardInfo from './components/cardInfo.json';
 
 function App() {
-  const [color, setColor] = useState('#ffffff');
+  const [color, setColor] = useState('#c86464');
   const [fontColor, setFontColor] = useState('#000000'); // Default font color
   const [instructionFontColor, setInstructionFontColor] = useState('#ffffff'); // Default instruction font color
   const [isMatched, setIsMatched] = useState(false); // State to track if colors match

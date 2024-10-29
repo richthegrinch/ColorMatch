@@ -84,7 +84,7 @@ function App() {
           }}
         >
         <p className="instructions" style={{ color: instructionFontColor }}>
-          Try to match the color with the RGB values!
+          Try to match the button color with RGB values!
         </p>
 
         <button
@@ -92,7 +92,7 @@ function App() {
           style={{ backgroundColor: color, color: fontColor }}
           onClick={getRandomColor}
         >
-          Hi!
+          Match Me!
         </button>
         
         <div className='inputtxt'
